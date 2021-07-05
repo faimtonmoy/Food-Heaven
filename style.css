@@ -73,13 +73,14 @@ body{
     height: 400px;
     width: 350px;
     box-shadow: 10px 10px 20px grey;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 70px;
 }
 .box-element img{
     height: 200px;
     width: 250px;
     padding: 20px;
+    
 }
 .box-element h2{
     color: rgb(19, 18, 16);
