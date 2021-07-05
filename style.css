@@ -9,29 +9,39 @@ body{
 .intro{
     display: flex;
     margin-bottom: 100px;
+    
 }
 .half-width{
     width: 50%;
-    margin: 20px;
+    margin: 30px;
     padding-top: 50px;
     padding-left: 50px;
     
 }
-h1{
+.half-width h1{
     font-size: 40px;
     color: gray;
+    margin: 5px;
+    padding-top: 100px;
 }
+.half-width h2{
+    font-size: 40px;
+    color: gray;
+    margin: 5px;
+}
+
 #change-color{
     font-size: 30px;
     color: coral;
 }
-p{
+.half-width p{
     color:grey;
+    
 }
 
 .half-width img{
     width: 80%;
-    padding-right: 100px;
+    padding-right: 200px;
 }
 .link-button{
   text-decoration: none;
@@ -40,6 +50,7 @@ p{
   background-image: linear-gradient(orange, purple);
   padding: 10px 20px;
   border-radius: 20px;
+  margin-top: 100px;
 
 }
 .about{
@@ -49,7 +60,7 @@ p{
 }
 .recipie{
     text-align: center;
-    margin: auto;
+    margin-bottom:100px ;
    
 }
 #recipie-p{
@@ -84,13 +95,13 @@ p{
     width: 1100px;
     box-shadow: 10px 10px 20px grey;
     border-radius: 10px;
-    margin: 0 100px 100px 100px;
+    margin: 0 100px 100px 125px;
     display: flex;
 }
 .media{
     height: 100px;
     width: 300px;
-    margin: 0 50px;
+    margin: 0 50px 0 100px;
     padding: 30px;
 
 }
@@ -100,7 +111,7 @@ p{
     
 }
 .media p{
-    margin: 2px;
+    margin: 1px;
     color:black;
 }
 .footer{
