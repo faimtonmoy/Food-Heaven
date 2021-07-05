@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    max-width: 100%;
     
 }
 .orange{
@@ -28,6 +29,7 @@ body{
     font-size: 40px;
     color: gray;
     margin: 5px;
+    
 }
 
 #change-color{
@@ -36,6 +38,7 @@ body{
 }
 .half-width p{
     color:grey;
+    margin-bottom: 50px;
     
 }
 
@@ -58,13 +61,17 @@ body{
     background-image: url(./images/shapes/7.png);
     margin-bottom: 100px;
 }
+#about-heading{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 .recipie{
     text-align: center;
     margin-bottom:100px ;
    
 }
 #recipie-p{
-    padding: 0 450px;
+    padding: 0 200px 0 300px;
 }
 .box{
     display: flex;
@@ -74,11 +81,11 @@ body{
     width: 350px;
     box-shadow: 10px 10px 20px grey;
     border-radius: 20px;
-    margin: 70px;
+    margin: 50px;
 }
 .box-element img{
     height: 200px;
-    width: 250px;
+    width: 300px;
     padding: 20px;
     
 }
@@ -93,26 +100,26 @@ body{
 }
 .social-media{
     height: 200px;
-    width: 1100px;
+    width: 900px;
     box-shadow: 10px 10px 20px grey;
     border-radius: 10px;
-    margin: 0 100px 100px 125px;
+    margin: 0 100px 100px 225px;
     display: flex;
 }
 .media{
     height: 100px;
-    width: 300px;
-    margin: 0 50px 0 100px;
-    padding: 30px;
+    width: 250px;
+    margin: 0 30px 0 70px;
+    padding: 30px 20px 10px 20px;
 
 }
 .media h1{
     color: black;
-    margin-bottom: 0;
+    margin-bottom: 2px;
     
 }
 .media p{
-    margin: 1px;
+    padding-top: 1px;
     color:black;
 }
 .footer{
