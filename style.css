@@ -4,9 +4,7 @@ body{
     max-width: 100%;
     
 }
-.orange{
-    color: coral;
-}
+
 .intro{
     display: flex;
     margin-bottom: 100px;
@@ -23,25 +21,19 @@ body{
     font-size: 40px;
     color: gray;
     margin: 5px;
-    padding-top: 100px;
-}
-.half-width h2{
-    font-size: 40px;
-    color: gray;
-    margin: 5px;
-    
+   
 }
 
-#change-color{
-    font-size: 30px;
-    color: coral;
-}
+
+
 .half-width p{
     color:grey;
     margin-bottom: 50px;
     
 }
-
+.orange{
+    color: coral;
+}
 .half-width img{
     width: 80%;
     padding-right: 200px;
@@ -77,6 +69,7 @@ body{
 }
 #recipie-p{
     padding: 0 200px 0 300px;
+    
 }
 .box{
     display: flex;
@@ -102,6 +95,7 @@ body{
 .box-element p{
     text-align: left;
     padding:0 20px;
+    text-align: justify;
 }
 .social-media{
     height: 200px;
